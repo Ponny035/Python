@@ -1,0 +1,30 @@
+CSC233
+Given: 11 October 2018
+
+
+1) Write a regular expression code in Python to handle the following
+six possible telephone number formats.
+
+xxx.xxx.xxxx
+xxx-xxx-xxxx
+xxx-xxxxxxx
+xxx xxx xxxx
+(xxx) xxx-xxxx
+(xxx) xxx xxxx
+
+E.g.,
+
+428.515.5355
+086-315-5354
+428-5165455 
+350 535 5325
+(089) 815-5395
+(289) 888 5412
+
+Any other format would result in an error!
+
+
+2) Write a regular expression code in Python to handle real numbers like:
+12, 8., .12, 0.4, 12.5, 12.5E4, 12.5e4, 12.4E+4, 22E4, 13e-4, etc. 
+Check Python and use only those supported in the language. 
+For instance, 3e+5 is ok, but 3e+5. is not.
